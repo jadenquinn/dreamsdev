@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "mytrapdisctexture",
+    "name": "My Trap",
+    "description": "Dream Wheeze Moment 4",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:mytrap"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "chunkitdisctexture",
+    "name": "Chunk It",
+    "description": "Dream Wheeze Moment 3",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:chunkit"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "skeleholddisctexture",
+    "name": "Skelehole Full Of Gelehole",
+    "description": "Friend Funny Moment",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:skelehole"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

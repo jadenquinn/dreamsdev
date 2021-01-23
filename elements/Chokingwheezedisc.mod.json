@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "chokingwheezedisctexture",
+    "name": "Choking Wheeze",
+    "description": "Dream Wheeze Moment 2",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:chokingwheeze"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

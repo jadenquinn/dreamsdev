@@ -1,0 +1,119 @@
+{
+  "_fv": 15,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Badboyhalo",
+    "mobLabel": "BadBoyHalo",
+    "mobModelName": "Biped",
+    "mobModelTexture": "badboyhalo.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -12509409,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Items.BOW"
+    },
+    "equipmentOffHand": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": "Items.IRON_CHESTPLATE"
+    },
+    "equipmentLeggings": {
+      "value": "Items.IRON_LEGGINGS"
+    },
+    "equipmentBoots": {
+      "value": "Items.IRON_BOOTS"
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 4,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.4,
+    "armorBaseValue": 0.5,
+    "trackingRange": 70,
+    "health": 38,
+    "xpAmount": 8,
+    "waterMob": false,
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "livingSound": {
+      "value": "ambient.cave"
+    },
+    "hurtSound": {
+      "value": "block.cloth.break"
+    },
+    "deathSound": {
+      "value": "block.fire.extinguish"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "onStruckByLightning": {
+      "name": "BadboyhaloItIsStruckByLightning"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "Items.EMERALD"
+      }
+    ],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": true
+  }
+}

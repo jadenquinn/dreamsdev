@@ -1,0 +1,605 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Mlgkingdisc",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mlgkingdisc"
+    },
+    {
+      "name": "Chokingwheezedisc",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chokingwheezedisc"
+    },
+    {
+      "name": "Chunkitdisc",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chunkitdisc"
+    },
+    {
+      "name": "Imgonnapeemyselfdisc",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "imgonnapeemyselfdisc"
+    },
+    {
+      "name": "Mytrapdisc",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mytrapdisc"
+    },
+    {
+      "name": "Youjustgotprankeddisc",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "youjustgotprankeddisc"
+    },
+    {
+      "name": "DeltaNinjaDreamItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "delta_ninja_dream_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeltaNinjaDream",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "delta_ninja_dream"
+    },
+    {
+      "name": "Skeppy",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeppy"
+    },
+    {
+      "name": "BadboyhaloItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badboyhalo_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Badboyhalo",
+      "type": "mob",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badboyhalo"
+    },
+    {
+      "name": "Pewdiepie",
+      "type": "mob",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pewdiepie"
+    },
+    {
+      "name": "GeorgenotfoundItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "georgenotfound_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Georgenotfound",
+      "type": "mob",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "georgenotfound"
+    },
+    {
+      "name": "Badboyhaloskin1",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badboyhaloskin_1"
+    },
+    {
+      "name": "Badboyhaloskin2",
+      "type": "mob",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "badboyhaloskin_2"
+    },
+    {
+      "name": "Skeppyskin1",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeppyskin_1"
+    },
+    {
+      "name": "Skeppyskin2",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeppyskin_2"
+    },
+    {
+      "name": "Dreams",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dreams"
+    },
+    {
+      "name": "Sapnap",
+      "type": "mob",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapnap"
+    },
+    {
+      "name": "Skeleholedisc",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleholedisc"
+    },
+    {
+      "name": "PewdiepieItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pewdiepie_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Testing",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testing"
+    },
+    {
+      "name": "IamtestingcCommandExecuted",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iamtestingc_command_executed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Iamtestingc",
+      "type": "command",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iamtestingc"
+    },
+    {
+      "name": "AntfrostItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antfrost_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntfrostEntityDies",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antfrost_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antfrost",
+      "type": "mob",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antfrost"
+    },
+    {
+      "name": "AntfrostmasItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antfrostmas_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antfrostmas",
+      "type": "mob",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antfrostmas"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "mlgking",
+      "files": [
+        "mlgking"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "chokingwheeze",
+      "files": [
+        "chokingpeeweeze"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "chunkit",
+      "files": [
+        "chunkit"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "imgonnapeemyself",
+      "files": [
+        "imgonnapeemyself"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "mytrap",
+      "files": [
+        "mytrap"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "youjustgotpranked",
+      "files": [
+        "youjustgotpranked"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "dreamliterallychill",
+      "files": [
+        "literallyhavetochill"
+      ],
+      "category": "neutral"
+    },
+    {
+      "name": "dreamhurt",
+      "files": [
+        "dreamahhh"
+      ],
+      "category": "neutral"
+    },
+    {
+      "name": "dreamnoooo",
+      "files": [
+        "dreamdeath"
+      ],
+      "category": "neutral"
+    },
+    {
+      "name": "skelehole",
+      "files": [
+        "skelehole-full-o-gelehole"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "georgecomingforme",
+      "files": [
+        "comingforgeorge"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "georgedeath",
+      "files": [
+        "georgedeath"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "georgehurt",
+      "files": [
+        "georgehurt"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "georgehurt2",
+      "files": [
+        "georgehurt2"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "georgedrinkingstahp",
+      "files": [
+        "imdrinkingwaterstahp"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "sapnapidle",
+      "files": [
+        "sapnapidle"
+      ],
+      "category": "master"
+    },
+    {
+      "name": "sapnapdead",
+      "files": [
+        "sapnapdead"
+      ],
+      "category": "master",
+      "subtitle": "Sapnap became Crapnap"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.dreams.chunkitdisc.desc": "Dream Wheeze Moment 3",
+      "item.dreams.skeppyskin_1_spawn_egg": "Skeppyskin 1 Spawn Egg",
+      "item.dreams.youjustgotprankeddisc": "You Just Got Pranked",
+      "item.dreams.delta_ninja_dream": "Dream Spawn Egg",
+      "entity.dreams.pewdiepie": "Pewdiepie",
+      "entity.dreams.georgenotfound": "Georgenotfound",
+      "entity.dreams.skeppy": "Skeppy",
+      "item.dreams.imgonnapeemyselfdisc.desc": "Dream Dying Moment",
+      "item.dreams.skeleholedisc.desc": "Friend Funny Moment",
+      "item.dreams.chokingwheezedisc.desc": "Dream Wheeze Moment 2",
+      "item.dreams.chunkitdisc": "Chunk It",
+      "item.dreams.badboyhaloskin_1": "Badboyhaloskin 1 Spawn Egg",
+      "item.dreams.badboyhaloskin_2": "Badboyhaloskin 2 Spawn Egg",
+      "entity.dreams.badboyhalo": "Badboyhalo",
+      "item.dreams.antfrost_spawn_egg": "Antfrost Spawn Egg",
+      "item.dreams.georgenotfound": "Georgenotfound Spawn Egg",
+      "entity.dreams.antfrostmas": "Antfrost",
+      "item.dreams.chokingwheezedisc": "Choking Wheeze",
+      "item.dreams.skeppyskin_2_spawn_egg": "Skeppyskin 2 Spawn Egg",
+      "item.dreams.mlgkingdisc": "MLG King",
+      "item.dreams.sapnap_spawn_egg": "Sapnap Spawn Egg",
+      "item.dreams.mlgkingdisc.desc": "Dream Wheeze Moment - MLG King",
+      "item.dreams.pewdiepie": "Pewdiepie Spawn Egg",
+      "item.dreams.youjustgotprankeddisc.desc": "Dream Pranking Wheezing Moment",
+      "item.dreams.delta_ninja_dream_spawn_egg": "Dream Spawn Egg",
+      "item.dreams.badboyhaloskin_2_spawn_egg": "Badboyhaloskin 2 Spawn Egg",
+      "item.dreams.skeppy_spawn_egg": "Skeppy Spawn Egg",
+      "itemGroup.tabtesting": "Testing",
+      "item.dreams.mytrapdisc.desc": "Dream Wheeze Moment 4",
+      "entity.dreams.sapnap": "Sapnap",
+      "item.dreams.skeppyskin_1": "Skeppyskin 1 Spawn Egg",
+      "item.dreams.skeppyskin_2": "Skeppyskin 2 Spawn Egg",
+      "item.dreams.skeleholedisc": "Skelehole Full Of Gelehole",
+      "item.dreams.sapnap": "Sapnap Spawn Egg",
+      "subtitles.sapnapdead": "Sapnap became Crapnap",
+      "item.dreams.mytrapdisc": "My Trap",
+      "entity.dreams.delta_ninja_dream": "Dream",
+      "item.dreams.pewdiepie_spawn_egg": "Pewdiepie Spawn Egg",
+      "item.dreams.antfrostmas_spawn_egg": "Antfrost Spawn Egg",
+      "item.dreams.badboyhalo": "Badboyhalo Spawn Egg",
+      "entity.dreams.badboyhaloskin_1": "Badboyhaloskin 1",
+      "entity.dreams.badboyhaloskin_2": "Badboyhaloskin 2",
+      "entity.dreams.antfrost": "Antfrost",
+      "item.dreams.badboyhaloskin_1_spawn_egg": "Badboyhaloskin 1 Spawn Egg",
+      "entity.dreams.skeppyskin_1": "Skeppyskin 1",
+      "entity.dreams.skeppyskin_2": "Skeppyskin 2",
+      "itemGroup.tabdreams": "Dreams",
+      "item.dreams.badboyhalo_spawn_egg": "Badboyhalo Spawn Egg",
+      "item.dreams.skeppy": "Skeppy Spawn Egg",
+      "item.dreams.georgenotfound_spawn_egg": "Georgenotfound Spawn Egg",
+      "item.dreams.imgonnapeemyselfdisc": "I\u0027m Gonna Pee Myself"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "dreams",
+    "modName": "Dreams",
+    "version": "2.1.15",
+    "description": "This is a mod for Minecraft 1.15.2 that adds all things related to the recently blooming YouTuber, Dream!",
+    "author": "Jaden LeMieux/JWMC/JadensWeb",
+    "websiteURL": "http://jadenswebmc.us.to/",
+    "license": "Direct",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "unnamed",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "http://jadenswebmc.us.to/dreams/drreeeeaaaamm.txt",
+    "modElementsPackage": "to.us.jadenswebmc.dreams",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100103117
+}

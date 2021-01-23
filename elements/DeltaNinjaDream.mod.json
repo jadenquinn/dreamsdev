@@ -1,0 +1,115 @@
+{
+  "_fv": 15,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Dream",
+    "mobLabel": "Dream",
+    "mobModelName": "Biped",
+    "mobModelTexture": "dreamfixed.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -13369549,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Items.DIAMOND_SWORD"
+    },
+    "equipmentOffHand": {
+      "value": "Items.SHIELD"
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": "Items.IRON_CHESTPLATE"
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 7,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 1.0,
+    "trackingRange": 85,
+    "health": 45,
+    "xpAmount": 30,
+    "waterMob": false,
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "CUSTOM:Chokingwheezedisc"
+    },
+    "livingSound": {
+      "value": "CUSTOM:dreamliterallychill"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:dreamhurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:dreamnoooo"
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "DRAGON_BREATH"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 1,
+    "onStruckByLightning": {
+      "name": "DeltaNinjaDreamItIsStruckByLightning"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"avoid_entity\"><field name=\"radius\">7</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">EntityPlayer</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.BOW"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": true
+  }
+}

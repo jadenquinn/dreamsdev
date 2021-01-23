@@ -1,0 +1,122 @@
+{
+  "_fv": 15,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Antfrost",
+    "mobLabel": "Antfrost",
+    "mobModelName": "Biped",
+    "mobModelTexture": "ant.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -13421824,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "Blocks.LIME_BED"
+    },
+    "equipmentOffHand": {
+      "value": "Items.DIAMOND_SHOVEL"
+    },
+    "equipmentHelmet": {
+      "value": "Items.GOLDEN_HELMET"
+    },
+    "equipmentBody": {
+      "value": "Items.IRON_CHESTPLATE"
+    },
+    "equipmentLeggings": {
+      "value": "Items.IRON_LEGGINGS"
+    },
+    "equipmentBoots": {
+      "value": "Items.IRON_BOOTS"
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 4,
+    "attackKnockback": 0.1,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.5,
+    "armorBaseValue": 0.1,
+    "trackingRange": 56,
+    "health": 20,
+    "xpAmount": 10,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "Items.EXPERIENCE_BOTTLE"
+    },
+    "livingSound": {
+      "value": "CUSTOM:georgedrinkingstahp"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:georgehurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:dreamliterallychill"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.3999999985098839,
+    "particleAmount": 2,
+    "onStruckByLightning": {
+      "name": "AntfrostItIsStruckByLightning"
+    },
+    "whenMobDies": {
+      "name": "AntfrostEntityDies"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.3</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": true,
+    "rangedAttackItem": {
+      "value": "Items.RECORD_CAT"
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 1,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [],
+    "spawnInDungeons": true
+  }
+}

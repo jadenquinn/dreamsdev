@@ -1,0 +1,156 @@
+{
+  "mlgking": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:mlgking",
+        "stream": false
+      }
+    ]
+  },
+  "chokingwheeze": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:chokingpeeweeze",
+        "stream": false
+      }
+    ]
+  },
+  "chunkit": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:chunkit",
+        "stream": false
+      }
+    ]
+  },
+  "imgonnapeemyself": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:imgonnapeemyself",
+        "stream": false
+      }
+    ]
+  },
+  "mytrap": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:mytrap",
+        "stream": false
+      }
+    ]
+  },
+  "youjustgotpranked": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:youjustgotpranked",
+        "stream": false
+      }
+    ]
+  },
+  "dreamliterallychill": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dreams:literallyhavetochill",
+        "stream": false
+      }
+    ]
+  },
+  "dreamhurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dreams:dreamahhh",
+        "stream": false
+      }
+    ]
+  },
+  "dreamnoooo": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dreams:dreamdeath",
+        "stream": false
+      }
+    ]
+  },
+  "skelehole": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:skelehole-full-o-gelehole",
+        "stream": false
+      }
+    ]
+  },
+  "georgecomingforme": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:comingforgeorge",
+        "stream": false
+      }
+    ]
+  },
+  "georgedeath": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:georgedeath",
+        "stream": false
+      }
+    ]
+  },
+  "georgehurt": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:georgehurt",
+        "stream": false
+      }
+    ]
+  },
+  "georgehurt2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:georgehurt2",
+        "stream": false
+      }
+    ]
+  },
+  "georgedrinkingstahp": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:imdrinkingwaterstahp",
+        "stream": false
+      }
+    ]
+  },
+  "sapnapidle": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "dreams:sapnapidle",
+        "stream": false
+      }
+    ]
+  },
+  "sapnapdead": {
+    "category": "master",
+    "subtitle": "subtitles.sapnapdead",
+    "sounds": [
+      {
+        "name": "dreams:sapnapdead",
+        "stream": false
+      }
+    ]
+  }
+}

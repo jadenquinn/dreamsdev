@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "mlgkingdisctexture",
+    "name": "MLG King",
+    "description": "Dream Wheeze Moment - MLG King",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:mlgking"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

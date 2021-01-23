@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="Direct"
+
+[[mods]]
+modId="dreams"
+version="2.1.15"
+displayName="Dreams"
+credits="http://jadenswebmc.us.to/dreams/drreeeeaaaamm.txt"
+displayURL="http://jadenswebmc.us.to/"
+logoFile="logo.png"
+authors="Jaden LeMieux/JWMC/JadensWeb"
+description='''
+This is a mod for Minecraft 1.15.2 that adds all things related to the recently blooming YouTuber, Dream!
+'''
+
+[[dependencies.dreams]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

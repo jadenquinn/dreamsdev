@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "youjustgotprankeddisctexture",
+    "name": "You Just Got Pranked",
+    "description": "Dream Pranking Wheezing Moment",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:youjustgotpranked"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

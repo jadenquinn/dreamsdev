@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Dreams",
+    "icon": {
+      "value": "Blocks.LIME_BED"
+    },
+    "showSearch": true
+  }
+}
