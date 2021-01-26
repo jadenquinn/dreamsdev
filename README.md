@@ -8,7 +8,7 @@ Dreams
 
 The Dream Minecraft Mod
 
-By: Jaden LeMieux AKA JadensWebMC
+By: Jaden LeMieux AKA JadensWebMC or misterrredstone.
 
  
 
