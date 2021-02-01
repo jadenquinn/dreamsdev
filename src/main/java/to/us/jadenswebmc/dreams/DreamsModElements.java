@@ -68,6 +68,9 @@ public class DreamsModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("dreams", "georgedrinkingstahp")));
 		sounds.put(new ResourceLocation("dreams", "sapnapidle"), new net.minecraft.util.SoundEvent(new ResourceLocation("dreams", "sapnapidle")));
 		sounds.put(new ResourceLocation("dreams", "sapnapdead"), new net.minecraft.util.SoundEvent(new ResourceLocation("dreams", "sapnapdead")));
+		sounds.put(new ResourceLocation("dreams", "baddead1"), new net.minecraft.util.SoundEvent(new ResourceLocation("dreams", "baddead1")));
+		sounds.put(new ResourceLocation("dreams", "comesailawaysong"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("dreams", "comesailawaysong")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("dreams").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "comesailawaydisc1",
+    "name": "Music Disc",
+    "description": "Come Sail Away - Styx (1977)",
+    "creativeTab": {
+      "value": "CUSTOM:Dreams"
+    },
+    "music": {
+      "value": "CUSTOM:comesailawaysong"
+    },
+    "specialInfo": [
+      "Enjoy This Copyrighted Music!"
+    ],
+    "hasGlow": true
+  }
+}

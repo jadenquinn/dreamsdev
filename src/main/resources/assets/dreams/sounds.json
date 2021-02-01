@@ -152,5 +152,25 @@
         "stream": false
       }
     ]
+  },
+  "baddead1": {
+    "category": "neutral",
+    "subtitle": "subtitles.baddead1",
+    "sounds": [
+      {
+        "name": "dreams:badhurt1",
+        "stream": false
+      }
+    ]
+  },
+  "comesailawaysong": {
+    "category": "record",
+    "subtitle": "subtitles.comesailawaysong",
+    "sounds": [
+      {
+        "name": "dreams:ree",
+        "stream": true
+      }
+    ]
   }
 }

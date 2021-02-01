@@ -448,6 +448,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wilbursootentity"
+    },
+    {
+      "name": "Comesailawaydisc",
+      "type": "musicdisc",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comesailawaydisc"
     }
   ],
   "variable_elements": [],
@@ -571,12 +580,29 @@
       ],
       "category": "master",
       "subtitle": "Sapnap became Crapnap"
+    },
+    {
+      "name": "baddead1",
+      "files": [
+        "badhurt1"
+      ],
+      "category": "neutral",
+      "subtitle": "BadBoyHalo Became The Number Fourteen"
+    },
+    {
+      "name": "comesailawaysong",
+      "files": [
+        "ree"
+      ],
+      "category": "record",
+      "subtitle": "Angels Appear On Your Head"
     }
   ],
   "language_map": {
     "en_us": {
       "item.dreams.chunkitdisc.desc": "Dream Wheeze Moment 3",
       "item.dreams.skeppyskin_1_spawn_egg": "Skeppyskin 1 Spawn Egg",
+      "item.dreams.comesailawaydisc.desc": "Come Sail Away - Styx (1977)",
       "item.dreams.delta_ninja_dream": "Dream Spawn Egg",
       "item.dreams.youjustgotprankeddisc": "You Just Got Pranked",
       "entity.dreams.pewdiepie": "Pewdiepie",
@@ -619,6 +645,7 @@
       "item.dreams.wilbursootentity_spawn_egg": "Wilbur Soot Spawn Egg",
       "item.dreams.antfrostmas_spawn_egg": "Antfrost Spawn Egg",
       "item.dreams.badboyhalo": "Badboyhalo Spawn Egg",
+      "subtitles.baddead1": "BadBoyHalo Became The Number Fourteen",
       "entity.dreams.badboyhaloskin_1": "Badboyhaloskin 1",
       "entity.dreams.badboyhaloskin_2": "Badboyhaloskin 2",
       "entity.dreams.antfrost": "Antfrost",
@@ -626,6 +653,9 @@
       "entity.dreams.skeppyskin_1": "Skeppyskin 1",
       "entity.dreams.skeppyskin_2": "Skeppyskin 2",
       "itemGroup.tabdreams": "Dreams",
+      "item.dreams.comesailawaydisc": "Music Disc",
+      "subtitles.badhurt1": "BadBoyHalo Hurts",
+      "subtitles.comesailawaysong": "Angels Appear On Your Head",
       "item.dreams.badboyhalo_spawn_egg": "Badboyhalo Spawn Egg",
       "item.dreams.skeppy": "Skeppy Spawn Egg",
       "item.dreams.georgenotfound_spawn_egg": "Georgenotfound Spawn Egg",
@@ -635,7 +665,7 @@
   "workspaceSettings": {
     "modid": "dreams",
     "modName": "Dreams",
-    "version": "2.1.23",
+    "version": "2.1.24",
     "description": "This is a mod for Minecraft 1.15.2 that adds all things related to the recently blooming YouTuber, Dream!",
     "author": "Jaden LeMieux/JWMC/JadensWeb/misterrredstone, SwanSpike, MaskedRPM8/MinKun, Dream.",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/dream",
