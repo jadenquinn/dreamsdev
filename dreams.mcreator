@@ -601,12 +601,12 @@
   "language_map": {
     "en_us": {
       "item.dreams.chunkitdisc.desc": "Dream Wheeze Moment 3",
-      "item.dreams.skeppyskin_1_spawn_egg": "Skeppyskin 1 Spawn Egg",
       "item.dreams.comesailawaydisc.desc": "Come Sail Away - Styx (1977)",
-      "item.dreams.delta_ninja_dream": "Dream Spawn Egg",
+      "item.dreams.skeppyskin_1_spawn_egg": "Skeppyskin 1 Spawn Egg",
       "item.dreams.youjustgotprankeddisc": "You Just Got Pranked",
-      "entity.dreams.pewdiepie": "Pewdiepie",
+      "item.dreams.delta_ninja_dream": "Dream Spawn Egg",
       "entity.dreams.georgenotfound": "Georgenotfound",
+      "entity.dreams.pewdiepie": "Pewdiepie",
       "entity.dreams.skeppy": "Skeppy",
       "item.dreams.imgonnapeemyselfdisc.desc": "Dream Dying Moment",
       "item.dreams.skeleholedisc.desc": "Friend Funny Moment",
@@ -665,7 +665,7 @@
   "workspaceSettings": {
     "modid": "dreams",
     "modName": "Dreams",
-    "version": "2.1.24",
+    "version": "2.1.27",
     "description": "This is a mod for Minecraft 1.15.2 that adds all things related to the recently blooming YouTuber, Dream!",
     "author": "Jaden LeMieux/JWMC/JadensWeb/misterrredstone, SwanSpike, MaskedRPM8/MinKun, Dream.",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/dream",

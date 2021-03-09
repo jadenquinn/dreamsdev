@@ -65,12 +65,12 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToDrowning": true,
     "immuneToLightning": true,
-    "immuneToPotions": true,
-    "immuneToPlayer": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": true,
     "mobDrop": {
       "value": "Blocks.ENDER_CHEST"
     },
