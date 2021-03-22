@@ -38,7 +38,6 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.monster.EndermanEntity;
 import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -119,7 +118,7 @@ public class GhostburEntityEntity extends DreamsModElements.ModElement {
 		ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.4);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
-	public static class CustomEntity extends EndermanEntity {
+	public static class CustomEntity extends MonsterEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -207,10 +206,6 @@ public class GhostburEntityEntity extends DreamsModElements.ModElement {
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;
 			if (source.getImmediateSource() instanceof PlayerEntity)
-				return false;
-			if (source == DamageSource.FALL)
-				return false;
-			if (source == DamageSource.CACTUS)
 				return false;
 			if (source == DamageSource.DROWN)
 				return false;
