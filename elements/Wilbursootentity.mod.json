@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "mob",
   "definition": {
     "mobName": "Wilbur Soot",
@@ -71,6 +71,11 @@
     "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": true,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": "Blocks.ENDER_CHEST"
     },

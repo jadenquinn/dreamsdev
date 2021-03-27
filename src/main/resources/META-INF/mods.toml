@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[35,)"
+loaderVersion="[36,)"
 license="Direct"
 
 [[mods]]
 modId="dreams"
-version="2.1.28"
+version="2.1.3"
 displayName="Dreams"
 credits="Mod Creator: misterrredstone/Jaden LeMieux - Videos: https://www.youtube.com/watch?v=zCZoEOxS4cQ - https://www.youtube.com/watch?v=3ls1meCNgfM, https://www.youtube.com/watch?v=42fLWXy6LbM, Thank you guys!"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/dream"
@@ -17,7 +17,7 @@ This is a mod for Minecraft 1.15.2 that adds all things related to the recently 
 [[dependencies.dreams]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.4]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
 

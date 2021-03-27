@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 17,
   "_type": "mob",
   "definition": {
     "mobName": "Skeppy",
@@ -70,6 +70,11 @@
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": "Blocks.DIAMOND_BLOCK"
     },
