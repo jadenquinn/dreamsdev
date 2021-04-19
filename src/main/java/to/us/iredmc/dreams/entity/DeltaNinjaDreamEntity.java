@@ -6,7 +6,6 @@ import to.us.iredmc.dreams.itemgroup.DreamsItemGroup;
 import to.us.iredmc.dreams.item.ChokingwheezediscItem;
 import to.us.iredmc.dreams.DreamsModElements;
 
-import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
@@ -27,7 +26,6 @@ import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
@@ -37,12 +35,10 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
-import net.minecraft.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
@@ -52,9 +48,6 @@ import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.IRendersAsItem;
-import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
@@ -62,9 +55,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
-import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
-import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 
 import java.util.Random;
@@ -74,8 +65,6 @@ import java.util.HashMap;
 @DreamsModElements.ModElement.Tag
 public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 	public static EntityType entity = null;
-	@ObjectHolder("dreams:entitybulletdelta_ninja_dream")
-	public static final EntityType arrow = null;
 	public DeltaNinjaDreamEntity(DreamsModElements instance) {
 		super(instance, 7);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ModelRegisterHandler());
@@ -90,9 +79,6 @@ public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -13369549, -16777216, new Item.Properties().group(DreamsItemGroup.tab))
 				.setRegistryName("delta_ninja_dream_spawn_egg"));
-		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
-				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletdelta_ninja_dream").setRegistryName("entitybulletdelta_ninja_dream"));
 	}
 
 	@SubscribeEvent
@@ -122,19 +108,17 @@ public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
 				return customRender;
 			});
-			RenderingRegistry.registerEntityRenderingHandler(arrow,
-					renderManager -> new SpriteRenderer(renderManager, Minecraft.getInstance().getItemRenderer()));
 		}
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.5);
 		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 45);
-		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 1);
-		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 7);
+		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 1.8);
+		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 8);
 		GlobalEntityTypeAttributes.put(entity, ammma.create());
 	}
-	public static class CustomEntity extends MonsterEntity implements IRangedAttackMob {
+	public static class CustomEntity extends MonsterEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -164,13 +148,9 @@ public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new SwimGoal(this));
-			this.goalSelector.addGoal(6, new AvoidEntityGoal(this, PlayerEntity.class, (float) 7, 1, 1.2));
-			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
-				@Override
-				public boolean shouldContinueExecuting() {
-					return this.shouldExecute();
-				}
-			});
+			this.goalSelector.addGoal(6, new AvoidEntityGoal(this, PlayerEntity.class, (float) 6, 1.1, 0.9));
+			this.goalSelector.addGoal(7, new AvoidEntityGoal(this, SapnapEntity.CustomEntity.class, (float) 6, 1.3, 0.9));
+			this.goalSelector.addGoal(8, new AvoidEntityGoal(this, GeorgenotfoundEntity.CustomEntity.class, (float) 6, 1.4, 1));
 		}
 
 		@Override
@@ -227,15 +207,6 @@ public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 			return super.attackEntityFrom(source, amount);
 		}
 
-		public void attackEntityWithRangedAttack(LivingEntity target, float flval) {
-			ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, this, this.world);
-			double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
-			double d1 = target.getPosX() - this.getPosX();
-			double d3 = target.getPosZ() - this.getPosZ();
-			entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
-			world.addEntity(entityarrow);
-		}
-
 		public void livingTick() {
 			super.livingTick();
 			double x = this.getPosX();
@@ -254,41 +225,6 @@ public class DeltaNinjaDreamEntity extends DreamsModElements.ModElement {
 					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
 					world.addParticle(ParticleTypes.DRAGON_BREATH, d0, d1, d2, d3, d4, d5);
 				}
-		}
-	}
-
-	@OnlyIn(value = Dist.CLIENT, _interface = IRendersAsItem.class)
-	private static class ArrowCustomEntity extends AbstractArrowEntity implements IRendersAsItem {
-		public ArrowCustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
-			super(arrow, world);
-		}
-
-		public ArrowCustomEntity(EntityType<? extends ArrowCustomEntity> type, World world) {
-			super(type, world);
-		}
-
-		public ArrowCustomEntity(EntityType<? extends ArrowCustomEntity> type, double x, double y, double z, World world) {
-			super(type, x, y, z, world);
-		}
-
-		public ArrowCustomEntity(EntityType<? extends ArrowCustomEntity> type, LivingEntity entity, World world) {
-			super(type, entity, world);
-		}
-
-		@Override
-		public IPacket<?> createSpawnPacket() {
-			return NetworkHooks.getEntitySpawningPacket(this);
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public ItemStack getItem() {
-			return new ItemStack(Items.ARROW, (int) (1));
-		}
-
-		@Override
-		protected ItemStack getArrowStack() {
-			return new ItemStack(Items.ARROW, (int) (1));
 		}
 	}
 }
