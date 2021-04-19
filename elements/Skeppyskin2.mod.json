@@ -5,7 +5,7 @@
     "mobName": "Skeppyskin 2",
     "mobLabel": "Skeppy",
     "mobModelName": "Biped",
-    "mobModelTexture": "pmcskin3d-steve1.png",
+    "mobModelTexture": "pmcskin3d-steve-simple1.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
