@@ -79,7 +79,7 @@ public class Tubboskin4forstagingEntity extends DreamsModElements.ModElement {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dreams:textures/tubbo5.png");
+						return new ResourceLocation("dreams:textures/pmcskin3d-steve-simple11.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));

@@ -79,7 +79,7 @@ public class Tommyskin1forstagingEntity extends DreamsModElements.ModElement {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("dreams:textures/tommy2.png");
+						return new ResourceLocation("dreams:textures/pmcskin3d-alex-slim-arms.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
