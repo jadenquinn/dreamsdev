@@ -88,7 +88,7 @@ public class DreamforstagingEntity extends DreamsModElements.ModElement {
 	}
 	private void setupAttributes() {
 		AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.1);
+		ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0);
 		ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
 		ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 		ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 6);
